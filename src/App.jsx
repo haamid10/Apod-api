@@ -1,5 +1,7 @@
 
 import Home from "./Components/Home"
+import Header from "./Components/Header"
+
 
 
 const App =()=> {
@@ -9,9 +11,9 @@ const App =()=> {
 
 
   return (
-    <div className=" bg-blue-300  h-full">
-      <h1>dlkdfm</h1>
+    <div className="">
       
+      <Header/>
       <Home />
        {/* <MovieList astronomy={astronomy}/> */}
   </div>
